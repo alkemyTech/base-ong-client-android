@@ -1,12 +1,12 @@
-package com.melvin.ongandroid.view
+package com.alkemy.ongandroid.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.melvin.ongandroid.R
+import com.alkemy.ongandroid.R
 
-class SignUpActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
+        setContentView(R.layout.activity_login)
     }
 }

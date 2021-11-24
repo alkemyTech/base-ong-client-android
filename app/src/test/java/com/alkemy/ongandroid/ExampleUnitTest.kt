@@ -1,4 +1,4 @@
-package com.melvin.ongandroid
+package com.alkemy.ongandroid
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

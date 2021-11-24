@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.melvin.ongandroid">
+    package="com.alkemy.ongandroid">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ONGAndroid">
         <activity
-            android:name=".view.SignUpActivity"
+            android:name="com.alkemy.ongandroid.view.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".view.LoginActivity"
+            android:name="com.alkemy.ongandroid.view.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".view.MainActivity"
+            android:name="com.alkemy.ongandroid.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
